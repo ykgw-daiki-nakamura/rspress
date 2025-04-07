@@ -23,6 +23,9 @@ importers:
       textlint-rule-preset-ja-technical-writing:
         specifier: ^12.0.2
         version: 12.0.2
+      textlint-rule-preset-jtf-style:
+        specifier: ^3.0.2
+        version: 3.0.2
     devDependencies:
       '@commitlint/cli':
         specifier: ^19.8.0

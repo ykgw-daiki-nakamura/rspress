@@ -4,6 +4,7 @@
   "rules": {
     "ja-no-redundant-expression": true,
     "ja-unnatural-alphabet": true,
-    "preset-ja-technical-writing": true
+    "preset-ja-technical-writing": true,
+    "preset-jtf-style": true
   }
 }

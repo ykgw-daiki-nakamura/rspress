@@ -1,5 +1,9 @@
 # rspress
 
+## 各勅機能
+https://marketplace.visualstudio.com/items/?itemName=vivaxy.vscode-conventional-commits
+
+https://marketplace.visualstudio.com/items/?itemName=3w36zj6.textlint
 
 ## textlint
 
@@ -37,12 +41,12 @@ module.exports = {
 };
 ```
 
-husky のインストール。
+huskyのインストール。
 ```
 npx husky-init
 ```
 
-commit-msg フックの追加。
+commit-msgフックの追加。
 ```
 npx husky add .husky/commit-msg "npx commitlint --edit \$1"
 ```
@@ -55,7 +59,7 @@ npx husky add .husky/commit-msg "npx commitlint --edit \$1"
 npx commitlint --edit $1
 ```
 
-.lintstagedrc.js の作成。
+.lintstagedrc.jsの作成。
 ```
 module.exports = {
     '*.{js,jsx,ts,tsx}': [
@@ -72,7 +76,7 @@ module.exports = {
   
 ```
 
-pre-commit フックの追加。
+pre-commitフックの追加。
 ```
 npx husky add .husky/pre-commit "npx lint-staged"
 ```
@@ -84,3 +88,8 @@ npx husky add .husky/pre-commit "npx lint-staged"
 
 npx lint-staged
 ```
+
+## JTF style check
+
+和文では、コロンなどを多用しない：：：。
+日本語とEnglishの間にはスペースを入れる。（自動修正される？）
