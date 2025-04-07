@@ -1,0 +1,9 @@
+{
+  "plugins": {},
+  "filters": {},
+  "rules": {
+    "ja-no-redundant-expression": true,
+    "ja-unnatural-alphabet": true,
+    "preset-ja-technical-writing": true
+  }
+}

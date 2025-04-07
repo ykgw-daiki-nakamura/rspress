@@ -12,5 +12,11 @@
     "rspress": "^1.25.0",
     "ts-node": "^10.9.2",
     "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "textlint": "^14.6.0",
+    "textlint-rule-ja-no-redundant-expression": "^4.0.1",
+    "textlint-rule-ja-unnatural-alphabet": "^2.0.1",
+    "textlint-rule-preset-ja-technical-writing": "^12.0.2"
   }
 }
