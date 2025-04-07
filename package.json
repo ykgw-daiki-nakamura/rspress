@@ -5,15 +5,20 @@
   "scripts": {
     "dev": "rspress dev",
     "build": "rspress build",
-    "preview": "rspress preview"
+    "preview": "rspress preview",
+    "prepare": "husky install"
   },
   "devDependencies": {
+    "@commitlint/cli": "^19.8.0",
+    "@commitlint/config-conventional": "^19.8.0",
     "@types/node": "^16",
+    "husky": "^8.0.0",
     "rspress": "^1.25.0",
     "ts-node": "^10.9.2",
     "typescript": "^5.4.5"
   },
   "dependencies": {
+    "lint-staged": "^15.5.0",
     "textlint": "^14.6.0",
     "textlint-rule-ja-no-redundant-expression": "^4.0.1",
     "textlint-rule-ja-unnatural-alphabet": "^2.0.1",
