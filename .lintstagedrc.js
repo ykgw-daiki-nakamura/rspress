@@ -4,10 +4,12 @@ module.exports = {
     //   'prettier --write',
     // ],
     '*.md': [
-        'textlint --fix'
+        'textlint --fix',
+        'textlint'
       ],
       '*.txt': [
-        'textlint --fix'
+        'textlint --fix',
+        'textlint'
       ]
   };
   
