@@ -46,7 +46,7 @@ Release Note は、[Generate release note] で作成することを推奨とす�
 >[Generate release note] は、Pull Request のラベルと内容が反映されるので、Pull Request を適切に運用すること
 
 ```release.yml
-# Automatic release notes configuration
+# .github/release.yml
 changelog:
   categories:
     - title: "✨ New Features"
