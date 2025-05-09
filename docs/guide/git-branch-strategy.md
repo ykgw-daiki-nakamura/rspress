@@ -45,6 +45,38 @@ Release Note は、[Generate release note] で作成することを推奨とす�
 >[!NOTE]
 >[Generate release note] は、Pull Request のラベルと内容が反映されるので、Pull Request を適切に運用すること
 
+```release.yml
+# Automatic release notes configuration
+changelog:
+  categories:
+    - title: "✨ New Features"
+      labels:
+        - "feature"
+        - "enhancement"
+    - title: "🐛 Bug Fixes"
+      labels:
+        - "bug"
+        - "fix"
+    - title: "🛠 Improvements & Maintenance"
+      labels:
+        - "refactor"
+        - "maintenance"
+        - "chore"
+    - title: "📖 Documentation Updates"
+      labels:
+        - "documentation"
+        - "docs"
+    - title: "⚡️ Performance Improvements"
+      labels:
+        - "performance"
+    - title: "📦 Dependency Updates"
+      labels:
+        - "dependencies"
+    - title: "Other Changes"
+      labels:
+        - "*"
+```
+
 ## 開発～リリースフロー
 
 ### 開発フェーズ

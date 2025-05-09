@@ -1,17 +1,29 @@
 changelog:
   categories:
-    - title: "🎉 New Features"
+    - title: "✨ New Features"
       labels:
+        - "feature"
         - "enhancement"
-    - title: "💊 Bug Fixes"
+    - title: "🐛 Bug Fixes"
       labels:
         - "bug"
-    - title: "📚 Documentation"
+        - "fix"
+    - title: "🛠 Improvements & Maintenance"
+      labels:
+        - "refactor"
+        - "maintenance"
+        - "chore"
+    - title: "📖 Documentation Updates"
       labels:
         - "documentation"
-    - title: "👒 Dependencies"
+        - "docs"
+    - title: "⚡️ Performance Improvements"
+      labels:
+        - "performance"
+    - title: "📦 Dependency Updates"
       labels:
         - "dependencies"
-    - title: "🛠 Other Changes"
+    - title: "Other Changes"
       labels:
         - "*"
+```
