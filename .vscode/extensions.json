@@ -1,0 +1,9 @@
+{
+  "recommendations": [
+    "yzhang.markdown-all-in-one",
+    "vivaxy.vscode-conventional-commits",
+    "3w36zj6.textlint",
+    "esbenp.prettier-vscode",
+    "DavidAnson.vscode-markdownlint"
+  ]
+}
